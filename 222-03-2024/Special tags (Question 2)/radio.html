@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radio Button</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #fff;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #000; /* Black color */
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 16px;
+    }
+
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .content {
+        text-align: center;
+        color: black; /* White color for text */
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 0 20px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    input[type="radio"] {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        width: 20px;
+        height: 20px;
+        border: 2px solid #000;
+        border-radius: 50%;
+        margin-right: 10px;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+
+    input[type="radio"]:checked {
+        background-color: #000;
+    }
+
+    label {
+        display: inline-block;
+        vertical-align: middle;
+    }
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="list.html">List</a>
+        <a href="form.html">Form</a>
+        <a href="table.html">Table</a>
+        <a href="radio.html">Radio Button</a>
+    </div>
+
+    <div class="container">
+         <h1>Read and choose the best option</h1>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum eros id velit tincidunt ullamcorper. Nullam id nisi ac nisi condimentum fermentum. Donec aliquam diam id justo aliquam, nec laoreet lectus bibendum. Sed vitae metus vel velit venenatis laoreet. Duis vehicula, orci at varius volutpat, ipsum mauris maximus odio, id egestas nisi arcu in ipsum. Morbi rhoncus neque non odio posuere vestibulum. Aliquam a tellus ligula. Sed ultrices neque sit amet est tristique vestibulum.</p>
+        <p>Choose your option:</p>
+    <label>
+        <input type="radio" name="option" value="option1">
+        Option 1
+    </label><br>
+    <label>
+        <input type="radio" name="option" value="option2">
+        Option 2
+    </label><br>
+    <label>
+        <input type="radio" name="option" value="option3">
+        Option 3
+    </label><br>
+    <label>
+        <input type="radio" name="option" value="option4">
+        Option 4
+    </label><br>
+</div>
+
+</body>
+</html>
